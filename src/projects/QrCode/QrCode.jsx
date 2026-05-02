@@ -1,5 +1,6 @@
 import "./QrCode.css";
-import qrCodeImage from "./assets/image-qr-code.png";
+import qrCodeImage from "./assets/image-qr-code.png"
+import HomeButton from "../../components/HomeButton/HomeButton";
 
 function QrCode() {
   return (
@@ -13,6 +14,8 @@ function QrCode() {
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
         </p>
       </div>
+
+      <HomeButton />
     </div>
   );
 }
