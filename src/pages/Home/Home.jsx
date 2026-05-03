@@ -4,8 +4,7 @@ import usePageTitle from "../../hooks/UsePageTitle";
 
 const projects = [
   { name: "QR Code", path: "/qrcode" },
-  { name: "Test", path: "/test" },
-  { name: "Test", path: "/test" },
+  { name: "Blog Card", path: "/blogcard" },
 ];
 
 function Home() {

@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./pages/NotFound/NotFound";
 import QrCode from "./projects/QrCode/QrCode";
+import BlogPage from "./projects/BlogCard/pages/BlogPage";
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/qrcode" element={<QrCode />} />
+            <Route path="/blogcard" element={<BlogPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

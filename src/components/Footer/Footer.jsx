@@ -6,7 +6,7 @@ function Footer() {
       <p className="footer-text">
         Challenge by{" "}
         <a
-          href="https://www.frontendmentor.io/"
+          href="https://www.frontendmentor.io/profile/ethanrey19"
           target="_blank"
           rel="noopener noreferrer"
         >
