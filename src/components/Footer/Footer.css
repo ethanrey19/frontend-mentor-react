@@ -7,3 +7,9 @@
 .footer-text {
   font-size: 1.25rem;
 }
+
+@media (max-width: 640px) {
+  .footer {
+    display: none;
+  }
+}
