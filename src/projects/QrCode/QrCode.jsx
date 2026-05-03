@@ -1,8 +1,11 @@
 import "./QrCode.css";
 import qrCodeImage from "./assets/image-qr-code.png"
 import HomeButton from "../../components/HomeButton/HomeButton";
+import usePageTitle from "../../hooks/UsePageTitle";
 
 function QrCode() {
+  usePageTitle("QR Code - Ethan Reynolds");
+
   return (
     <div className="qr-code-page">
       <div className="qr-code-component">

@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import usePageTitle from "../../hooks/UsePageTitle";
 
 const projects = [
   { name: "QR Code", path: "/qrcode" },
@@ -8,6 +9,8 @@ const projects = [
 ];
 
 function Home() {
+  usePageTitle("Home - Ethan Reynolds");
+
   return (
     <div className="home-container">
       <h1 className="home-title">My Frontend Mentor Projects</h1>
