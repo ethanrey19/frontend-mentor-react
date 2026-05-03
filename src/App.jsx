@@ -7,7 +7,7 @@ import "./index.css";
 
 function App() {
   return (
-    <HashRouter basename="/frontend-mentor">
+    <HashRouter>
       <div className="app-container">
         <main className="main">
           <Routes>
