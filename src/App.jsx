@@ -8,7 +8,7 @@ import "./index.css";
 function App() {
   return (
     <HashRouter>
-      <div className="app-container">
+      <div className="app">
         <main className="main">
           <Routes>
             <Route path="/" element={<Home />} />
