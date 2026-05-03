@@ -5,7 +5,7 @@ function HomeButton() {
   return (
     <>
       <Link to="/">
-        <button className="home-button">Home</button>
+        <button className="home-button">Return Home</button>
       </Link>
     </>
   );
