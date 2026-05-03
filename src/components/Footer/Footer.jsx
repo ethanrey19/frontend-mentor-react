@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p className="footer-text">
-        Challenge by{" "}
+        Challenges by{" "}
         <a
           href="https://www.frontendmentor.io/profile/ethanrey19"
           target="_blank"
