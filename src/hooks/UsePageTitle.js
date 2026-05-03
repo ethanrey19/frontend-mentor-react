@@ -2,9 +2,7 @@ import { useEffect } from 'react';
 
 const UsePageTitle = (title) => {
     useEffect(() => {
-        return () => {
-            document.title = title || "Ethan Reynolds";
-        };
+        document.title = title || "Ethan Reynolds";
     }, [title]);
 }
 
