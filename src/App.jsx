@@ -12,8 +12,8 @@ function App() {
         <main className="main">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="*" element={<NotFound />} />
             <Route path="/qrcode" element={<QrCode />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
 
