@@ -1,0 +1,50 @@
+.social-links-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.social-avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.social-location {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 10px;
+}
+
+.social-description {
+    font-size: 14px;
+    color: hsl(0, 0%, 50%);
+}
+
+.social-button {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.social-button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}

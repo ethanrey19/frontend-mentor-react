@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import NotFound from "./pages/NotFound/NotFound";
 import QrCode from "./projects/QrCode/QrCode";
 import BlogPage from "./projects/BlogCard/pages/BlogPage";
+import SocialLinksPage from "./projects/SocialLinks/pages/SocialLinksPage";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/qrcode" element={<QrCode />} />
             <Route path="/blogcard" element={<BlogPage />} />
+            <Route path="/sociallinks" element={<SocialLinksPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

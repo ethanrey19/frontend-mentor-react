@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/projects/SocialLinks/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/projects/SocialLinks/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/projects/SocialLinks/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+.social-links-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}

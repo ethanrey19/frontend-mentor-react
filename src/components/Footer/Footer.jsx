@@ -1,8 +1,15 @@
 import "./Footer.css";
+import { useLocation } from "react-router-dom";
 
 function Footer() {
+  const location = useLocation();
+  const isSocialLinks = location.pathname === "/sociallinks";
+
   return (
-    <footer className="footer">
+    <footer
+      className="footer"
+      style={{ color: isSocialLinks ? "#fff" : undefined }}
+    >
       <p className="footer-text">
         Challenges by{" "}
         <a
