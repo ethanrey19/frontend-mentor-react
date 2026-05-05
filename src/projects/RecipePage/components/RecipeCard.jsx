@@ -9,8 +9,8 @@ function RecipeCard() {
         <h1 className="recipe-header">Simple Omelette Recipe</h1>
       </header>
       <p className="recipe-description">
-        An easy and quick dish, perfect for any meal. This classic omlette
-        combines beated eggs cooked to perfection, optionally filled with your
+        An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked to perfection, optionally filled with your
         choice of cheese, vegetables, or meats.
       </p>
 
@@ -56,16 +56,16 @@ function RecipeCard() {
           </li>
           <li className="recipe-instructions-item">
             <strong>Cook the omelette:</strong> Once the butter is melted and
-            bubbling, pour in the eggs. Tilt the pan to ensure the eggs envenly
+            bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly
             coat the surface.
           </li>
           <li className="recipe-instructions-item">
             <strong>Add fillings (optional):</strong> When the eggs begin to set
-            at the edges but are still slightlyh runny in the middle, sprinkle
-            your choosen fillings over one half of the omelette.
+            at the edges but are still slightly runny in the middle, sprinkle
+            your chosen fillings over one half of the omelette.
           </li>
           <li className="recipe-instructions-item">
-            <strong>Fold and serve:</strong> As the omlette continues to cook,
+            <strong>Fold and serve:</strong> As the omelette continues to cook,
             carefully lift one edge and fold it over the fillings. Let it cook
             for another minute, then slide it onto a plate.
           </li>
