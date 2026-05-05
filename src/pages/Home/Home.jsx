@@ -7,6 +7,7 @@ const projects = [
   { name: "Blog Card", path: "/blogcard" },
   { name: "Social Links", path: "/sociallinks" },
   { name: "Recipe Page", path: "/recipes" },
+  { name: "Product Card", path: "/productcard" },
 ];
 
 function Home() {

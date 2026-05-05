@@ -1,4 +1,4 @@
-import { HashRouter , Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./pages/NotFound/NotFound";
@@ -6,6 +6,7 @@ import QrCode from "./projects/QrCode/QrCode";
 import BlogPage from "./projects/BlogCard/pages/BlogPage";
 import RecipePage from "./projects/RecipePage/pages/RecipePage";
 import SocialLinksPage from "./projects/SocialLinks/pages/SocialLinksPage";
+import ProductCard from "./projects/ProductCard/pages/ProductCardPage";
 import "./index.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/blogcard" element={<BlogPage />} />
             <Route path="/sociallinks" element={<SocialLinksPage />} />
             <Route path="/recipes" element={<RecipePage />} />
+            <Route path="/productcard" element={<ProductCard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
