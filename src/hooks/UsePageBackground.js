@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const UsePageBackground = (color) => {
+const usePageBackground = (color) => {
   useEffect(() => {
     const previous = document.body.style.backgroundColor;
 
@@ -12,4 +12,4 @@ const UsePageBackground = (color) => {
   }, [color]);
 };
 
-export default UsePageBackground;
+export default usePageBackground;

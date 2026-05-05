@@ -1,6 +1,6 @@
 import "./NotFound.css";
 import HomeButton from "../../components/HomeButton/HomeButton";
-import usePageTitle from "../../hooks/UsePageTitle";
+import usePageTitle from "../../hooks/usePageTitle";
 
 function NotFound() {
   usePageTitle("Not Found - Ethan Reynolds");

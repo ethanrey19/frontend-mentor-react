@@ -1,12 +1,12 @@
 import "./SocialLinksPage.css";
-import UsePageBackground from "../../../hooks/UsePageBackground";
-import UsePageTitle from "../../../hooks/UsePageTitle";
+import usePageBackground from "../../../hooks/usePageBackground";
+import usePageTitle from "../../../hooks/usePageTitle";
 import HomeButton from "../../../components/HomeButton/HomeButton";
 import SocialLinksCard from "../components/SocialLinksCard";
 
 function SocialLinksPage() {
-    UsePageTitle("Social Links - Ethan Reynolds");
-    UsePageBackground("hsl(0, 0%, 8%)");
+    usePageTitle("Social Links - Ethan Reynolds");
+    usePageBackground("hsl(0, 0%, 8%)");
 
     return (
         <div className="social-links-page">

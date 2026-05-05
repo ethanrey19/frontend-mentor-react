@@ -1,12 +1,12 @@
 import "./RecipePage.css";
-import UsePageTitle from "../../../hooks/UsePageTitle";
-import UsePageBackground from "../../../hooks/UsePageBackground";
+import usePageTitle from "../../../hooks/usePageTitle";
+import usePageBackground from "../../../hooks/usePageBackground";
 import HomeButton from "../../../components/HomeButton/HomeButton";
 import RecipeCard from "../components/RecipeCard";
 
 function RecipePage() {
-    UsePageTitle("Recipes - Ethan Reynolds");
-    UsePageBackground("hsl(30, 18%, 87%)");
+    usePageTitle("Recipes - Ethan Reynolds");
+    usePageBackground("hsl(30, 18%, 87%)");
 
     return (
         <div className="recipe-page">

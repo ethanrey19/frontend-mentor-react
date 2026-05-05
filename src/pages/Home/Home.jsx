@@ -1,6 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-import usePageTitle from "../../hooks/UsePageTitle";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const projects = [
   { name: "QR Code", path: "/qrcode" },

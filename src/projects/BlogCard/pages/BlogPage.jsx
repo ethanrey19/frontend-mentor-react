@@ -1,12 +1,12 @@
 import "./BlogPage.css";
 import BlogCard from "../componets/BlogCard";
 import HomeButton from "../../../components/HomeButton/HomeButton";
-import UsePageBackground from "../../../hooks/UsePageBackground";
-import UsePageTitle from "../../../hooks/UsePageTitle";
+import usePageBackground from "../../../hooks/usePageBackground";
+import usePageTitle from "../../../hooks/usePageTitle";
 
 function BlogPage() {
-    UsePageBackground("hsl(47, 88%, 63%)");
-    UsePageTitle("Blog Card - Ethan Reynolds");
+    usePageBackground("hsl(47, 88%, 63%)");
+    usePageTitle("Blog Card - Ethan Reynolds");
     
     return (
         <div className="blog-page">

@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 
-const UsePageTitle = (title) => {
+const usePageTitle = (title) => {
     useEffect(() => {
         document.title = title || "Ethan Reynolds";
     }, [title]);
 }
 
-export default UsePageTitle;
+export default usePageTitle;
