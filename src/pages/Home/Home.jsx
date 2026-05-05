@@ -6,6 +6,7 @@ const projects = [
   { name: "QR Code", path: "/qrcode" },
   { name: "Blog Card", path: "/blogcard" },
   { name: "Social Links", path: "/sociallinks" },
+  { name: "Recipe Page", path: "/recipes" },
 ];
 
 function Home() {
