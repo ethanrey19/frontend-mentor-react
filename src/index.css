@@ -8,7 +8,7 @@ body {
   font-family: system-ui, sans-serif;
   line-height: 1.5;
   color: #111;
-  background-color: hsl(212, 45%, 89%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .app {

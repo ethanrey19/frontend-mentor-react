@@ -2,8 +2,10 @@ import "./QrCode.css";
 import qrCodeImage from "./assets/image-qr-code.png"
 import HomeButton from "../../components/HomeButton/HomeButton";
 import usePageTitle from "../../hooks/usePageTitle";
+import usePageBackground from "../../hooks/usePageBackground";
 
 function QrCode() {
+  usePageBackground("hsl(212, 45%, 89%)");
   usePageTitle("QR Code - Ethan Reynolds");
 
   return (
