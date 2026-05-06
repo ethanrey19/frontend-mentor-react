@@ -1,6 +1,7 @@
-# Frontend Mentor Portfolio
+# Frontend Mentor Portfolio 
 
 This is my personal portfolio of Frontend Mentor challenges built with React and Vite.
+Ethan Reynolds
 
 ## Live Site
 https://ethanrey19.github.io/frontend-mentor/
