@@ -4,6 +4,9 @@ import usePageTitle from "../../../hooks/usePageTitle";
 import usePageBackground from "../../../hooks/usePageTitle";
 import CardComponent from "../components/CardComponent";
 import iconSupervisor from "../images/icon-supervisor.svg";
+import iconTeam from "../images/icon-team-builder.svg";
+import iconKarma from "../images/icon-karma.svg";
+import iconCalc from "../images/icon-supervisor.svg";
 
 function FourCardsPage() {
   usePageBackground("hsl(0, 0%, 100%)");
@@ -16,12 +19,42 @@ function FourCardsPage() {
         <h1 className="four-cards-subtitle">Powered by Technology</h1>
       </header>
 
-      <p className="four-cards-description">
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
+      <section>
+        <p className="four-cards-description">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </section>
 
-      <CardComponent icon={iconSupervisor} title="Supervisor" description="Monitors activity to project roadblocks" />
+      <div className="cards-container">
+        <CardComponent
+          icon={iconSupervisor}
+          title="Supervisor"
+          description="Monitors activity to project roadblocks"
+          borderColor="hsl(180, 62%, 55%)"
+        />
+
+        <CardComponent
+          icon={iconTeam}
+          title="Team Builder"
+          description="Scans our talent network to create the optimal team for your project"
+          borderColor="hsl(0, 78%, 62%)"
+        />
+
+        <CardComponent
+          icon={iconKarma}
+          title="Karma"
+          description="Regularly evalautes our talent to ensure quality"
+          borderColor="hsl(34, 97%, 64%)"
+        />
+
+        <CardComponent
+          icon={iconCalc}
+          title="Calculator"
+          description="Uses data from past projects to provide better estimates"
+          borderColor="hsl(212, 86%, 64%)"
+        />
+      </div>
 
       <HomeButton />
     </div>
