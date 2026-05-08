@@ -34,19 +34,21 @@ function FourCardsPage() {
           borderColor="hsl(180, 62%, 55%)"
         />
 
-        <CardComponent
-          icon={iconTeam}
-          title="Team Builder"
-          description="Scans our talent network to create the optimal team for your project"
-          borderColor="hsl(0, 78%, 62%)"
-        />
+        <div className="middle">
+          <CardComponent
+            icon={iconTeam}
+            title="Team Builder"
+            description="Scans our talent network to create the optimal team for your project"
+            borderColor="hsl(0, 78%, 62%)"
+          />
 
-        <CardComponent
-          icon={iconKarma}
-          title="Karma"
-          description="Regularly evalautes our talent to ensure quality"
-          borderColor="hsl(34, 97%, 64%)"
-        />
+          <CardComponent
+            icon={iconKarma}
+            title="Karma"
+            description="Regularly evalautes our talent to ensure quality"
+            borderColor="hsl(34, 97%, 64%)"
+          />
+        </div>
 
         <CardComponent
           icon={iconCalc}
