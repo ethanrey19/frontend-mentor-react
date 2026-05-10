@@ -9,6 +9,7 @@ const projects = [
   { name: "Recipe Page", path: "/recipes" },
   { name: "Product Card", path: "/productcard" },
   { name: "Four Cards", path: "/fourcards" },
+  { name: "Testimonials", path: "/testimonials" },
 ];
 
 function Home() {

@@ -8,6 +8,7 @@ import RecipePage from "./projects/RecipePage/pages/RecipePage";
 import SocialLinksPage from "./projects/SocialLinks/pages/SocialLinksPage";
 import ProductCard from "./projects/ProductCard/pages/ProductCardPage";
 import FourCardsPage from "./projects/FourCards/pages/FourCardsPage";
+import TestimonialGridPage from "./projects/TestimonialsGrid/pages/TestimonialGridPage";
 import "./index.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/recipes" element={<RecipePage />} />
             <Route path="/productcard" element={<ProductCard />} />
             <Route path="/fourcards" element={<FourCardsPage />} />
+            <Route path="/testimonials" element={<TestimonialGridPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
