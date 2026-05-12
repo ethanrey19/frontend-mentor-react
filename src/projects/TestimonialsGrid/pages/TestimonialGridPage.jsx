@@ -19,6 +19,8 @@ function TestimonialGridPage() {
             quote={testimonial.quote}
             subquote={testimonial.subquote}
             backgroundColor={testimonial.backgroundColor}
+            textColor={testimonial.textColor}
+            isWhite={testimonial.isWhite}
           />
         ))}
       </main>

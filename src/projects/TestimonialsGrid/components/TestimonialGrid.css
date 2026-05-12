@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
 .testi-grid {
-    
-}    
+  font-family: "Barlow Semi Condensed", sans-serif;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-info {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-wrap: nowrap;
+  padding: 20px;
+}
+
+.quote {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.subquote {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

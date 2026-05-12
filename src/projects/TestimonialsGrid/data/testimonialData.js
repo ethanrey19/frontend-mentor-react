@@ -14,8 +14,11 @@ export const testimonials = [
     quote: `I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. 
       I honestly feel like I got every penny's worth.`,
     subquote: `I was an EMT for many years before I joined the bootcamp. 
-    I've been looking to make a transition and have heard some people who had an amazing experience here.
-    I signed up for the free intro course and found it incredibly fun! I enrolled `,
+    I've been looking to make a transition and heard some people who had an amazing experience here.
+    I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+    The next 12 weeks was the best - and most grueling - time of my life. 
+    Since completing the course, I've successfully switched careers, working as a Software Engineer at a VR startup.
+    `,
     backgroundColor: "hsl(263, 55%, 52%)",
     textColor: "hsl(0, 0%, 100%)",
   },
@@ -33,6 +36,32 @@ export const testimonials = [
   },
   {
     id: 3,
+    user: {
+      name: "Jeanette Harmon",
+      avatar: jeanAvatar,
+    },
+    quote: `An overall wonderful and rewarding experience`,
+    subquote: `Thank you for the wonderul experience! I now have a job I really enjoy, and make a good living while doing something I love`,
+    backgroundColor: "hsl(0, 0%, 100%)",
+    textColor: "hsl(217, 19%, 35%)",
+  },
+  {
+    id: 4,
+    user: {
+      name: "Patrick Abrams",
+      avatar: patrickAvatar,
+    },
+    quote: `Awesome teaching support from TAs who did the bootcamp themselves.
+    Getting Guidance from them and learning from their experiences was easy.`,
+    subquote: `The staff seem genuinely concered about my progress which I find really refreshing.
+    The program gave me the confidence necessary to be able to go out in the world and present myhself as a capable junior developer.
+    The standard is above the rest.
+    You will get ther personal attention you need from an incredible community of smart and amazing people`,
+    backgroundColor: "hsl(219, 29%, 14%)",
+    textColor: "hsl(0, 0%, 100%)",
+  },
+  {
+    id: 5,
     user: {
       name: "Kira Whittle",
       avatar: kiraAvatar,
@@ -52,31 +81,4 @@ export const testimonials = [
     backgroundColor: "hsl(0, 0%, 100%)",
     textColor: "hsl(217, 19%, 35%)",
   },
-  {
-    id: 4,
-    user: {
-      name: "Jeanette Harmon",
-      avatar: jeanAvatar,
-    },
-    quote: `An overall wonderful and rewarding experience`,
-    subquote: `Thank you for the wonderul experience! I now have a job I really enjoy, and make a good living while doing something I love`,
-    backgroundColor: "hsl(0, 0%, 100%)",
-    textColor: "hsl(217, 19%, 35%)",
-  },
-  {
-    id: 5,
-    user: {
-      name: "Patrick Abrams",
-      avatar: patrickAvatar,
-    },
-    quote: `Awesome teaching support from TAs who did the bootcamp themselves.
-    Getting Guidance from them and learning from their experiences was easy.`,
-    subquote: `The staff seem genuinely concered about my progress which I find really refreshing.
-    The program gave me the confidence necessary to be able to go out in the world and present myhself as a capable junior developer.
-    The standard is above the rest.
-    You will get ther personal attention you need from an incredible community of smart and amazing people`,
-    backgroundColor: "hsl(219, 29%, 14%)",
-    textColor: "hsl(0, 0%, 100%)",
-  },
-
 ];

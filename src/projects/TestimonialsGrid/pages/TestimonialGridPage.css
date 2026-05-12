@@ -1,5 +1,6 @@
-.testi-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+    display: grid;
+    gap: 3rem;
+    padding: 1.5rem;
+    margin-top: 0.75rem;
 }
