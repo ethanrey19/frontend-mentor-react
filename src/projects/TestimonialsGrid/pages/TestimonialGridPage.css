@@ -4,3 +4,16 @@ main {
     padding: 1.5rem;
     margin-top: 0.75rem;
 }
+
+@media (min-width: 48em) {
+  main {
+    display: grid;
+    grid-auto-columns: 500px;
+    grid-auto-rows: 500px;
+    gap: 1em;
+    grid-template-areas: 
+    "box-1 box-1 box-2 box-5"
+    "box-1 box-1 box-2 box-5"
+  }
+  
+}
