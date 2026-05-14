@@ -4,7 +4,7 @@ function TestimonialGrid(props) {
   const isWhite = props.backgroundColor === "hsl(0, 0%, 100%)";
   return (
     <div
-      className="testi-grid"
+      className={`testi-grid testi-grid-${props.index + 1}`}
       style={{
         color: props.textColor,
         backgroundColor: props.backgroundColor,

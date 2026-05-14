@@ -11,10 +11,11 @@ function TestimonialGridPage() {
 
   return (
     <div className="testi-page">
-      <main>
-        {testimonials.map((testimonial) => (
+      <main className="grid-container">
+        {testimonials.map((testimonial, index) => (
           <TestimonialGrid
             key={testimonial.id}
+            index={index}
             user={testimonial.user}
             quote={testimonial.quote}
             subquote={testimonial.subquote}
