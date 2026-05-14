@@ -11,7 +11,7 @@ function TestimonialGridPage() {
 
   return (
     <div className="testi-page">
-      <main className="grid-container">
+      <section className="grid-container">
         {testimonials.map((testimonial, index) => (
           <TestimonialGrid
             key={testimonial.id}
@@ -24,7 +24,7 @@ function TestimonialGridPage() {
             isWhite={testimonial.isWhite}
           />
         ))}
-      </main>
+      </section>
 
       <HomeButton />
     </div>
