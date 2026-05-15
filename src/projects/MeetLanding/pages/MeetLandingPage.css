@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.meet-landing-page {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Red Hat Display", sans-serif;
+  letter-spacing: 0px;
+}
+
+.meet-logo {
+  width: 119px;
+  height: 28px;
+  margin: 3rem;
+}
+
+.meet-hero {
+  width: 115%;
+  height: auto;
+}
+
+.meet-header {
+  width: 100%;
+  height: min-content;
+}
+
+.meet-title {
+  color: #28283d;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  line-height: 110%;
+  font-weight: 900;
+}
+
+.meet-description {
+  color: #87879d;
+  font-size: 1.45rem;
+  line-height: 110%;
+  font-weight: 600;
+}
+
+.meet-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-meet-download {
+  width: 60%;
+  border-radius: 50px;
+  background-color: #4d96a9;
+  color: #FAFAFA;
+  border: none;
+  font-size: 1.25rem;
+  padding: 14px 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.btn-meet-download:hover {
+  background-color: #8fe3f9;
+}
+
+.meet-download-version {
+  color: #8fe3f9;
+}
+
+.btn-meet-about {
+  width: 40%;
+  border-radius: 50px;
+  background-color: #855FB1;
+  color: #FAFAFA;
+  border: none;
+  font-size: 1.25rem;
+  padding: 14px 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.btn-meet-about:hover {
+  background-color: #D9B8FF;
+}

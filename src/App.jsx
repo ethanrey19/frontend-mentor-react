@@ -1,3 +1,4 @@
+import "./index.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
@@ -9,7 +10,7 @@ import SocialLinksPage from "./projects/SocialLinks/pages/SocialLinksPage";
 import ProductCard from "./projects/ProductCard/pages/ProductCardPage";
 import FourCardsPage from "./projects/FourCards/pages/FourCardsPage";
 import TestimonialGridPage from "./projects/TestimonialsGrid/pages/TestimonialGridPage";
-import "./index.css";
+import MeetLandingPage from "./projects/MeetLanding/pages/MeetLandingPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/productcard" element={<ProductCard />} />
             <Route path="/fourcards" element={<FourCardsPage />} />
             <Route path="/testimonials" element={<TestimonialGridPage />} />
+            <Route path="/meetlanding" element={<MeetLandingPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

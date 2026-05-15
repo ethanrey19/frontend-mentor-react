@@ -10,6 +10,7 @@ const projects = [
   { name: "Product Card", path: "/productcard" },
   { name: "Four Cards", path: "/fourcards" },
   { name: "Testimonials", path: "/testimonials" },
+  { name: "Meet Landing", path: "/meetlanding" }
 ];
 
 function Home() {
