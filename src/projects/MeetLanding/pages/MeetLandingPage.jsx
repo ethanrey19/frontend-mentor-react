@@ -13,14 +13,18 @@ function MeetLandingPage() {
       <img className="meet-hero" src={meetHero} alt="Meet Hero"></img>
 
       <section className="meet-header">
-        <h1 className="meet-title">Group Chat for Everyone</h1>
+        <h1 className="meet-title">
+          Group Chat
+          <br />
+          for Everyone
+        </h1>
         <p className="meet-description">
           Meet makes it easy to connect with others face-to-face virually and
           collaborate across any device.
         </p>
         <div className="meet-buttons">
-          <button className="btn-meet-download">
-            Download <span className="meet-download-version">v1.3</span>
+          <button className="btn-download">
+            Download <span className="download-version">v1.3</span>
           </button>
           <button className="btn-meet-about">What is it?</button>
         </div>

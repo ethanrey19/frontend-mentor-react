@@ -34,16 +34,19 @@
   color: #28283d;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.75rem;
   line-height: 110%;
   font-weight: 900;
 }
 
 .meet-description {
   color: #87879d;
-  font-size: 1.45rem;
+  font-size: 1rem;
   line-height: 110%;
   font-weight: 600;
+  max-width: 29ch;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
 }
 
 .meet-buttons {
@@ -53,23 +56,23 @@
   align-items: center;
 }
 
-.btn-meet-download {
-  width: 60%;
+.btn-download {
+  width: 50%;
   border-radius: 50px;
   background-color: #4d96a9;
   color: #FAFAFA;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 14px 24px;
   font-weight: 600;
   line-height: 150%;
 }
 
-.btn-meet-download:hover {
+.btn-download:hover {
   background-color: #8fe3f9;
 }
 
-.meet-download-version {
+.download-version {
   color: #8fe3f9;
 }
 
@@ -79,7 +82,7 @@
   background-color: #855FB1;
   color: #FAFAFA;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 14px 24px;
   font-weight: 600;
   line-height: 150%;
