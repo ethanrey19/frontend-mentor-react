@@ -3,6 +3,7 @@ import meetLogo from "../assets/logo.svg";
 import meetHero from "../assets/tablet/image-hero.png";
 import usePageTitle from "../../../hooks/usePageTitle";
 import usePageBackground from "../../../hooks/usePageBackground";
+import MeetStep from "../components/MeetStep";
 
 function MeetLandingPage() {
   usePageTitle("Meet - Ethan Reynolds");
@@ -28,6 +29,8 @@ function MeetLandingPage() {
           </button>
           <button className="btn-meet-about">What is it?</button>
         </div>
+
+        <MeetStep number="01" />
       </section>
     </div>
   );
