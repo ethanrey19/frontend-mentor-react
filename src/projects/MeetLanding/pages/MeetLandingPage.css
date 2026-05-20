@@ -9,6 +9,7 @@
   font-family: "Red Hat Display", sans-serif;
   letter-spacing: 0px;
   line-height: 110%;
+  width: 100%;
 }
 
 .meet-logo {
@@ -192,4 +193,10 @@
 
 .meet-footer-download-version {
   color: #d9b8ff;
+}
+
+@media (min-width: 768px) {
+  .meet-buttons {
+    flex-direction: row;
+  }
 }

@@ -1,7 +1,8 @@
 import "./MeetLandingPage.css";
 import HomeButton from "../../../components/HomeButton/HomeButton"
 import meetLogo from "../assets/logo.svg";
-import meetHero from "../assets/tablet/image-hero.png";
+import mobileMeetHero from "../assets/tablet/image-hero.png";
+import desktopHeroLeft from "../assets/desktop/image-hero-left.png";
 import usePageTitle from "../../../hooks/usePageTitle";
 import usePageBackground from "../../../hooks/usePageBackground";
 import MeetStep from "../components/MeetStep";
@@ -16,7 +17,12 @@ function MeetLandingPage() {
   return (
     <div className="meet-landing-page">
       <img className="meet-logo" src={meetLogo} alt="Meet"></img>
-      <img className="meet-hero" src={meetHero} alt="Meet Hero"></img>
+      <picture className="meet-hero">
+         <source media="(max-width: 1023px)" srcset={mobileMeetHero}></source>
+
+         <img src={desktopHeroLeft} alt="Meet Hero"></img>
+      </picture>
+
 
       <section className="meet-header">
         <h1 className="meet-title">
