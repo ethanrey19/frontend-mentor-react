@@ -1,4 +1,5 @@
 import "./MeetLandingPage.css";
+import HomeButton from "../../../components/HomeButton/HomeButton"
 import meetLogo from "../assets/logo.svg";
 import meetHero from "../assets/tablet/image-hero.png";
 import usePageTitle from "../../../hooks/usePageTitle";
@@ -61,6 +62,8 @@ function MeetLandingPage() {
             Download <span className="footer-download-version">v1.3</span>
           </button>
       </section>
+
+      <HomeButton />
     </div>
   );
 }
