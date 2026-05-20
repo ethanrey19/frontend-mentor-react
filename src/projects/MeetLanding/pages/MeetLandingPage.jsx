@@ -29,8 +29,8 @@ function MeetLandingPage() {
           collaborate across any device.
         </p>
         <div className="meet-buttons">
-          <button className="btn-download">
-            Download <span className="download-version">v1.3</span>
+          <button className="meet-btn-download">
+            Download <span className="meet-download-version">v1.3</span>
           </button>
           <button className="btn-meet-about">What is it?</button>
         </div>
@@ -39,15 +39,15 @@ function MeetLandingPage() {
 
       <section className="meet-main">
         <div className="meet-main-grid">
-          <img className="grid-img" src={gridImg1} alt="Meet Grid Image"></img>
-          <img className="grid-img" src={gridImg2} alt="Meet Grid Image"></img>
-          <img className="grid-img" src={gridImg3} alt="Meet Grid Image"></img>
-          <img className="grid-img" src={gridImg4} alt="Meet Grid Image"></img>
+          <img className="meet-grid-img" src={gridImg1} alt="Meet Grid Image"></img>
+          <img className="meet-grid-img" src={gridImg2} alt="Meet Grid Image"></img>
+          <img className="meet-grid-img" src={gridImg3} alt="Meet Grid Image"></img>
+          <img className="meet-grid-img" src={gridImg4} alt="Meet Grid Image"></img>
         </div>
 
-        <h2 className="main-header">Built for modern use</h2>
-        <h3 className="main-subheader">Smarter meetings, all in one place</h3>
-        <p className="main-text">
+        <h2 className="meet-main-header">Built for modern use</h2>
+        <h3 className="meet-main-subheader">Smarter meetings, all in one place</h3>
+        <p className="meet-main-text">
           Send messages, share files, show your screen, and record your meetings
           - all in one workspace. Control who can join with invite-only team
           access, data encryption, and data export.
@@ -56,10 +56,10 @@ function MeetLandingPage() {
       </section>
 
       <section className="meet-footer">
-        <h2 className="footer-header">Experience more together</h2>
-        <h3 className="footer-subheader">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</h3>
-        <button className="footer-btn-download">
-            Download <span className="footer-download-version">v1.3</span>
+        <h2 className="meet-footer-header">Experience more together</h2>
+        <h3 className="meet-footer-subheader">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</h3>
+        <button className="meet-footer-btn-download">
+            Download <span className="meet-footer-download-version">v1.3</span>
           </button>
       </section>
 
