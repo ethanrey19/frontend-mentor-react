@@ -4,6 +4,10 @@ import meetHero from "../assets/tablet/image-hero.png";
 import usePageTitle from "../../../hooks/usePageTitle";
 import usePageBackground from "../../../hooks/usePageBackground";
 import MeetStep from "../components/MeetStep";
+import gridImg1 from "../assets/desktop/image-woman-in-videocall.jpg";
+import gridImg2 from "../assets/desktop/image-women-videochatting.jpg";
+import gridImg3 from "../assets/desktop/image-men-in-meeting.jpg";
+import gridImg4 from "../assets/desktop/image-man-texting.jpg";
 
 function MeetLandingPage() {
   usePageTitle("Meet - Ethan Reynolds");
@@ -29,8 +33,33 @@ function MeetLandingPage() {
           </button>
           <button className="btn-meet-about">What is it?</button>
         </div>
-
         <MeetStep number="01" />
+      </section>
+
+      <section className="meet-main">
+        <div className="meet-main-grid">
+          <img className="grid-img" src={gridImg1} alt="Meet Grid Image"></img>
+          <img className="grid-img" src={gridImg2} alt="Meet Grid Image"></img>
+          <img className="grid-img" src={gridImg3} alt="Meet Grid Image"></img>
+          <img className="grid-img" src={gridImg4} alt="Meet Grid Image"></img>
+        </div>
+
+        <h2 className="main-header">Built for modern use</h2>
+        <h3 className="main-subheader">Smarter meetings, all in one place</h3>
+        <p className="main-text">
+          Send messages, share files, show your screen, and record your meetings
+          - all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+        <MeetStep number="02" />
+      </section>
+
+      <section className="meet-footer">
+        <h2 className="footer-header">Experience more together</h2>
+        <h3 className="footer-subheader">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</h3>
+        <button className="footer-btn-download">
+            Download <span className="footer-download-version">v1.3</span>
+          </button>
       </section>
     </div>
   );
