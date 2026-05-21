@@ -9,18 +9,3 @@
   text-align: center;
   font-size: 3rem;
 }
-
-.project-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.project-item {
-  margin-bottom: 0.75rem;
-  font-size: 1.5rem;
-}
-
-.project-link:hover {
-  background: #ffffff;
-}

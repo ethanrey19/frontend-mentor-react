@@ -22,7 +22,7 @@ function App() {
             <Route path="/qrcode" element={<QrCode />} />
             <Route path="/blogcard" element={<BlogPage />} />
             <Route path="/sociallinks" element={<SocialLinksPage />} />
-            <Route path="/recipes" element={<RecipePage />} />
+            <Route path="/recipe" element={<RecipePage />} />
             <Route path="/productcard" element={<ProductCard />} />
             <Route path="/fourcards" element={<FourCardsPage />} />
             <Route path="/testimonials" element={<TestimonialGridPage />} />
