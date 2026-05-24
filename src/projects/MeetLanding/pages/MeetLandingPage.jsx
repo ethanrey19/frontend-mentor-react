@@ -23,7 +23,6 @@ function MeetLandingPage() {
          <img src={desktopHeroLeft} alt="Meet Hero"></img>
       </picture>
 
-
       <section className="meet-header">
         <h1 className="meet-title">
           Group Chat
