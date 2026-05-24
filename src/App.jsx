@@ -11,12 +11,15 @@ import ProductCard from "./projects/ProductCard/pages/ProductCardPage";
 import FourCardsPage from "./projects/FourCards/pages/FourCardsPage";
 import TestimonialGridPage from "./projects/TestimonialsGrid/pages/TestimonialGridPage";
 import MeetLandingPage from "./projects/MeetLanding/pages/MeetLandingPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <HashRouter>
       <div className="app">
         <main className="main">
+          <ScrollToTop />
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/qrcode" element={<QrCode />} />
