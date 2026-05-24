@@ -1,14 +1,16 @@
-import "./HomeButton.css";
+import "./ProjectLayout.css";
 import { Link } from "react-router-dom";
 
-function HomeButton() {
+function ProjectLayout({ children }) {
   return (
     <>
       <Link to="/">
         <button className="home-button">Return Home</button>
       </Link>
+
+      <main className="project-page">{children}</main>
     </>
   );
 }
 
-export default HomeButton;
+export default ProjectLayout;

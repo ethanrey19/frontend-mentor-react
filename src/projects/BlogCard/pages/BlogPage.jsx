@@ -1,6 +1,6 @@
 import "./BlogPage.css";
+import ProjectLayout from "../../../components/ProjectLayout/ProjectLayout";
 import BlogCard from "../componets/BlogCard";
-import HomeButton from "../../../components/HomeButton/HomeButton";
 import usePageBackground from "../../../hooks/usePageBackground";
 import usePageTitle from "../../../hooks/usePageTitle";
 
@@ -9,10 +9,11 @@ function BlogPage() {
   usePageTitle("Blog Card - Ethan Reynolds");
 
   return (
-    <div className="blog-page">
-      <BlogCard />
-      <HomeButton />
-    </div>
+    <ProjectLayout>
+      <div className="blog-page">
+        <BlogCard />
+      </div>
+    </ProjectLayout>
   );
 }
 

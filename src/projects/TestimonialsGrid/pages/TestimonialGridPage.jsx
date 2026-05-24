@@ -1,7 +1,7 @@
 import "./TestimonialGridPage.css";
+import ProjectLayout from "../../../components/ProjectLayout/ProjectLayout";
 import usePageTitle from "../../../hooks/usePageTitle";
 import usePageBackground from "../../../hooks/usePageBackground";
-import HomeButton from "../../../components/HomeButton/HomeButton";
 import TestimonialGrid from "../components/TestimonialGrid";
 import { testimonials } from "../data/testimonialData";
 
@@ -10,24 +10,24 @@ function TestimonialGridPage() {
   usePageBackground("hsl(0, 0%, 100%)");
 
   return (
-    <div className="testi-page">
-      <section className="grid-container">
-        {testimonials.map((testimonial, index) => (
-          <TestimonialGrid
-            key={testimonial.id}
-            index={index}
-            user={testimonial.user}
-            quote={testimonial.quote}
-            subquote={testimonial.subquote}
-            backgroundColor={testimonial.backgroundColor}
-            textColor={testimonial.textColor}
-            isWhite={testimonial.isWhite}
-          />
-        ))}
-      </section>
-
-      <HomeButton />
-    </div>
+    <ProjectLayout>
+      <div className="testi-page">
+        <section className="grid-container">
+          {testimonials.map((testimonial, index) => (
+            <TestimonialGrid
+              key={testimonial.id}
+              index={index}
+              user={testimonial.user}
+              quote={testimonial.quote}
+              subquote={testimonial.subquote}
+              backgroundColor={testimonial.backgroundColor}
+              textColor={testimonial.textColor}
+              isWhite={testimonial.isWhite}
+            />
+          ))}
+        </section>
+      </div>
+    </ProjectLayout>
   );
 }
 

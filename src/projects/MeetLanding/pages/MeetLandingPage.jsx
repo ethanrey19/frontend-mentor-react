@@ -1,5 +1,5 @@
 import "./MeetLandingPage.css";
-import HomeButton from "../../../components/HomeButton/HomeButton"
+import ProjectLayout from "../../../components/ProjectLayout/ProjectLayout";
 import meetLogo from "../assets/logo.svg";
 import mobileMeetHero from "../assets/tablet/image-hero.png";
 import desktopHeroLeft from "../assets/desktop/image-hero-left.png";
@@ -15,7 +15,8 @@ function MeetLandingPage() {
   usePageTitle("Meet - Ethan Reynolds");
   usePageBackground("#FAFAFA");
   return (
-    <div className="meet-landing-page">
+    <ProjectLayout>
+      <div className="meet-landing-page">
       <img className="meet-logo" src={meetLogo} alt="Meet"></img>
       <picture className="meet-hero">
          <source media="(max-width: 1023px)" srcset={mobileMeetHero}></source>
@@ -68,8 +69,9 @@ function MeetLandingPage() {
           </button>
       </section>
 
-      <HomeButton />
     </div>
+    </ProjectLayout>
+    
   );
 }
 
