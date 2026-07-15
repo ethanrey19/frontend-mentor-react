@@ -1,4 +1,4 @@
-# Frontend Mentor Portfolio 
+# Frontend Mentor Portfolio (deprecated)
 
 This is my personal portfolio of Frontend Mentor challenges built with React and Vite.
 
